@@ -1,0 +1,2 @@
+topic_id,cluster_id,page_id,slug,title,primary_query,query_ids,category,source_urls,serp_urls,evidence_status,serp_run_id,kind,owner_decision,original_date,previous_sha256,original_file
+topic-001,cluster-001,page-001,how-to-choose,Как выбрать решение,пример запроса,query-001|query-002,Выбор,https://example.org/source,https://example.org/competitor,hypothesis,,new,,,,

@@ -1,0 +1,22 @@
+{
+  "checkout": "/srv/site",
+  "content_dir": "content/blog",
+  "public_dir": "public",
+  "state_dir": "/var/lib/site-seo-receipts",
+  "site_url": "https://example.com",
+  "blog_path": "/blog/",
+  "build_command": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "acceptance_command": [
+    "python3",
+    "/opt/switchonai-seo-agents/scripts/check_rendered.py",
+    "--html-dir",
+    "/srv/site/out"
+  ],
+  "deploy_command": [],
+  "rollback_command": [],
+  "timeout_seconds": 900
+}

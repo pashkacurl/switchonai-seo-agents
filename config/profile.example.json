@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "site": {
+    "url": "https://example.com",
+    "language": "ru",
+    "market": "",
+    "region": "",
+    "device": "desktop",
+    "blog_path": "/blog/",
+    "author": "",
+    "business_file": "business.md"
+  },
+  "timezone": "UTC+03:00",
+  "limits": {
+    "requests_per_day": 0,
+    "model_calls_per_day": 0,
+    "output_tokens_per_day": 0,
+    "max_input_chars": 90000,
+    "max_output_tokens": 6000,
+    "articles_per_day": 0,
+    "updates_per_day": 0,
+    "crawl_pages": 30,
+    "source_age_days": 30,
+    "http_timeout": 30
+  },
+  "model": {
+    "provider": "anthropic",
+    "name": "",
+    "codex_executable": "codex"
+  },
+  "sources": {
+    "approved_urls": [],
+    "competitor_urls": [],
+    "search_engine": "",
+    "gsc_property": "",
+    "yandex_user_id": "",
+    "yandex_host_id": "",
+    "topvisor_user_id": "",
+    "topvisor_project_id": "",
+    "topvisor_region_index": null,
+    "metrika_counter_id": "",
+    "geo_import": "",
+    "measurements_import": ""
+  },
+  "publish": {
+    "mode": "review",
+    "adapter": "local",
+    "site_config": "",
+    "ssh_command": [],
+    "verified_trial": "",
+    "max_review_attempts": 2
+  },
+  "notifications": {
+    "telegram_chat_id": "",
+    "telegram_thread_id": "",
+    "indexnow_key": "",
+    "indexnow_key_location": "",
+    "yandex_recrawl": false,
+    "gsc_sitemap": false
+  },
+  "schedule": {
+    "enabled": false,
+    "reports_enabled": false,
+    "content_enabled": false,
+    "report_hour": 8,
+    "content_start_hour": 9,
+    "weekly_day": 0,
+    "strategy_enabled": false
+  }
+}
